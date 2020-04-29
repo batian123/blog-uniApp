@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小微商城"
+			}
+		}
+	    ,{
+            "path" : "pages/car/car",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#abcedf",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#007AFF",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/0011.png",
+				"selectedIconPath":"static/001.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/car/car",
+				"iconPath":"static/0022.png",
+				"selectedIconPath":"static/002.png"
+			},
+			{
+				"text":"个人中心",
+				"pagePath":"pages/about/about",
+				"iconPath":"static/0033.png",
+				"selectedIconPath":"static/003.png"
+			}
+		]
+	}
+}
